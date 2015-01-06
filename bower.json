@@ -1,0 +1,45 @@
+{
+  "name": "bashamasson",
+  "version": "1",
+  "homepage": "https://github.com/barohatoum/bashamasson",
+  "authors": [
+    "Ibrahim Hatoum <ibrahim.hatoum@gmail.com>"
+  ],
+  "description": "Lebanese restaurant on Massson.",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  	"jquery": "1.11.2",
+  	"uikit": "latest"
+  },
+  "install": {
+  	"path": {
+  		"css": "assets/css",
+  		"js": "assets/js/vendor",
+  		"scss": "assets/scss",
+  		"eot": "assets/fonts",
+  		"ttf": "assets/fonts",
+  		"woff": "assets/fonts",
+  		"otf": "assets/fonts",
+  		"jpg": "assets/images",
+  		"jpeg": "assets/images",
+  		"gif": "assets/images"
+  	},
+  	"sources": {
+  		"jquery": "assets/bower_components/jquery/dist/jquery.min.js",
+  		"uikit": [
+  			"assets/bower_components/uikit/src/fonts/*",
+  			"assets/bower_components/uikit/js/uikit.min.js",
+  			"assets/bower_components/uikit/scss/**",
+  			"assets/bower_components/uikit/fonts/**"
+  		]
+  	}
+  }
+}
