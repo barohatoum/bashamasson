@@ -68,4 +68,8 @@ $RECYCLE.BIN/
 .sass-cache
 *.css.map
 
+###PROJECT###
 logs/
+node_modules/
+flo-server.js
+.phpintel
